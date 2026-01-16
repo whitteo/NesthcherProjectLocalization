@@ -12,10 +12,10 @@
 		"RUSSIAN": "Вход всем пользователям разрешён"
 	},
 	"KICK_BY_ADMINISTRATION": {
-		"RUSSIAN": "Администрация принудительно изменила ваши данные, пожалуйста перезайдите в игру"
+		"RUSSIAN": "Администрация принудительно изменила ваши данные. Пожалуйста, перезайдите в игру"
 	},
 	"SERVER_NOT_FOUND": {
-		"RUSSIAN": "Сервер в данный момент выключен либо его не существует"
+		"RUSSIAN": "Сервер в данный момент выключен, либо его не существует"
 	},
 	"ACCOUNT_DELETE": {
 		"RUSSIAN": "Ваш аккаунт был удалён администрацией проекта.\nСпасибо, что играли",
@@ -43,7 +43,7 @@
 		"RUSSIAN": "#target не находится на вашем сервере"
 	},
 	"EXPRESSION_FORBIDDEN": {
-		"RUSSIAN": "Данное выражение запрещено. Выражение может состоятоль только из английских/русских букв, цифр и некоторых знаков"
+		"RUSSIAN": "Данное выражение запрещено. Выражение может состоять только из английских/русских букв, цифр и некоторых знаков"
 	},
 	"EXPRESSION_MAX_LENGTH_FORBIDDEN": {
 		"RUSSIAN": "Данное выражение превышает разрешённую длину - #length"
@@ -70,16 +70,13 @@
 		"RUSSIAN": "Тестовое сообщение",
 		"ENGLISH": "Test message"
 	},
-	"COMMAND_PUNISH_NO_REASON": {
-		"RUSSIAN": "нет причины"
-	},
 	"COMMAND_STYLE_LOGO": {
 		"RUSSIAN": "Стиль"
 	},
 	"COMMAND_STYLES_HELP": {
 		"RUSSIAN": [
 			"/styles prefix <префикс/reset>",
-			"§4ВНИМАНИЕ!§c Запрещено использовать оскорбительные выражения или выражения, которые будут выдавать вас за персонал. За такие выражения вы можете получить блокировку аккаунта!"
+			"§4ВНИМАНИЕ!§c Запрещено использовать оскорбления или выражения, которые будут выдавать вас за Персонал. За нарушение требований вы можете получить блокировку аккаунта!"
 		]
 	},
 	"COMMAND_STYLES_PREFIX_MESSAGE": {
@@ -128,7 +125,7 @@
 		"RUSSIAN": "/staffchat <сообщение>"
 	},
 	"COMMAND_PRIVATEMESSAGE_LOGO": {
-		"RUSSIAN": "ПЧ"
+		"RUSSIAN": "ЛС"
 	},
 	"COMMAND_PRIVATEMESSAGE_HELP": {
 		"RUSSIAN": "/msg <ник/@id> <сообщение>"
@@ -156,8 +153,8 @@
 	},
 	"COMMAND_SERVERTELEPORT_HELP": {
 		"RUSSIAN": [
-			"/serverteleport ~<сервер> - телепортация на определённый сервер",
-			"/serverteleport <ник/@id> - телепортация на сервер к игроку"
+			"/serverteleport ~<сервер> — телепортация на определённый сервер",
+			"/serverteleport <ник/@id> — телепортация на сервер к игроку"
 		]
 	},
 	"COMMAND_SERVERTELEPORT_MESSAGE": {
@@ -167,7 +164,7 @@
 		"RUSSIAN": "Ускорение"
 	},
 	"COMMAND_SPEED_HELP": {
-		"RUSSIAN": "/speed <скорость> - устанавливает скоросто полёта/ходьбы"
+		"RUSSIAN": "/speed <скорость> — устанавливает скоросто полёта/ходьбы"
 	},
 	"COMMAND_SPEED_NOT_CORRECT_VALUE_MESSAGE": {
 		"RUSSIAN": "Вы ввели буквы, а не число"
@@ -183,8 +180,8 @@
 	},
 	"COMMAND_GAMEMODE_HELP": {
 		"RUSSIAN": [
-			"/gamemode <0/1/2/3> - устанавливает игровой режим для себя",
-			"/gamemode <0/1/2/3> <ник/@id> - устанавливает игровой режим для другого игрока"
+			"/gamemode <0/1/2/3> — устанавливает игровой режим для себя",
+			"/gamemode <0/1/2/3> <ник/@id> — устанавливает игровой режим для другого игрока"
 		]
 	},
 	"COMMAND_GAMEMODE_MESSAGE": {
@@ -204,9 +201,9 @@
 	},
 	"COMMAND_NETWORK_HELP": {
 		"RUSSIAN": [
-			"/network reloadUserData <ник/@id> - принудительно перезагружает данные у пользователя",
-			"/network gc - принудительно отчищает память",
-			"/network reloadLocales - принудительно перезагружает локализацию на всех серверах"
+			"/network reloadUserData <ник/@id> — принудительно перезагружает данные у пользователя",
+			"/network gc — принудительно отчищает память",
+			"/network reloadLocales — принудительно перезагружает локализацию на всех серверах"
 		]
 	},
 	"COMMAND_NETWORK_RELOADUSERDATE_MESSAGE": {
@@ -223,7 +220,7 @@
 		"ENGLISH": "Proxy"
 	},
 	"SERVERTYPE_PROXY_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_SURVIVAL": {
@@ -234,7 +231,7 @@
 		"RUSSIAN": [
 			"§7Выживание в открытом мире",
 			"",
-			" Необычное выживание, с изменёнными",
+			" Необычное выживание с изменёнными",
 			"механиками Minecraft! Здесь ты",
 			"можешь играть как тебя нравится:",
 			"строй, развивайся, общайся или",
@@ -263,9 +260,8 @@
 			" Испытайте наши разработки в деле!",
 			"Эксклюзивные и интерактивные режимы от",
 			"наших разработчиков, которые точно",
-			"не дадут вам заскучать! Спустя",
-			"некоторое время вы будете решать",
-			"судьбу этих режимов",
+			"не дадут вам заскучать!",
+			"Вы будете решать судьбу этих режимов",
 			"",
 			" Действующие режимы:",
 			"1. §cОтсутствует",
@@ -277,8 +273,8 @@
 			" Test our developments in action!",
 			"Exclusive and interactive modes from",
 			"our developers that will surely",
-			"keep you entertained! After some time,",
-			"you will decide the fate of these modes",
+			"keep you entertained!",
+			"You will decide the fate of these modes",
 			"",
 			" Active modes:",
 			"1. §cUnavailable",
@@ -290,7 +286,7 @@
 		"ENGLISH": "Lobby"
 	},
 	"SERVERTYPE_LOBBY_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_TOURNAMENT": {
@@ -298,7 +294,7 @@
 		"ENGLISH": "Tournament"
 	},
 	"SERVERTYPE_TOURNAMENT_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_BUILD": {
@@ -306,7 +302,7 @@
 		"ENGLISH": "Building"
 	},
 	"SERVERTYPE_BUILD_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_TEST": {
@@ -314,7 +310,7 @@
 		"ENGLISH": "Test"
 	},
 	"SERVERTYPE_TEST_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_LIMBO": {
@@ -322,7 +318,7 @@
 		"ENGLISH": "Limbo"
 	},
 	"SERVERTYPE_LIMBO_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_AUTH": {
@@ -330,7 +326,7 @@
 		"ENGLISH": "Authorization"
 	},
 	"SERVERTYPE_AUTH_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	},
 	"SERVERTYPE_UNKNOWN": {
@@ -338,7 +334,8 @@
 		"ENGLISH": "WTF??"
 	},
 	"SERVERTYPE_UNKNOWN_LORE": {
-		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"RUSSIAN": ["Увы, описание ещё не придумано!"],
 		"ENGLISH": ["Unfortunately, the description is not yet available!"]
 	}
 }
+
