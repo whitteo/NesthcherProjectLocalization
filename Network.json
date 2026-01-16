@@ -1,0 +1,344 @@
+{
+	"CORE_NOT_CONNECTION": {
+		"RUSSIAN": "Ошибка! Нельзя выполнить данное действие, так как отсутствует подключение к Core. Повторите данное действие позже"
+	},
+	"MYSQL_NOT_CONNECTION": {
+		"RUSSIAN": "Ошибка! Нельзя выполнить данное действие, так как отсутствует подключение к базе данных. Повторите данное действие позже"
+	},
+	"CONNECTION_STATUS_DENY_ALL": {
+		"RUSSIAN": "Вход всем пользователям запрещён"
+	},
+	"CONNECTION_STATUS_ALLOW_ALL": {
+		"RUSSIAN": "Вход всем пользователям разрешён"
+	},
+	"KICK_BY_ADMINISTRATION": {
+		"RUSSIAN": "Администрация принудительно изменила ваши данные, пожалуйста перезайдите в игру"
+	},
+	"SERVER_NOT_FOUND": {
+		"RUSSIAN": "Сервер в данный момент выключен либо его не существует"
+	},
+	"ACCOUNT_DELETE": {
+		"RUSSIAN": "Ваш аккаунт был удалён администрацией проекта.\nСпасибо, что играли",
+		"ENGLISH": "Your account has been deleted by the project administration.\nThanks for playing"
+	},
+	"ACCOUNT_SAME": {
+		"RUSSIAN": "Друг, всё настолько печально?("
+	},
+	"ACCOUNT_NOT_FOUND_DATABASE": {
+		"RUSSIAN": "Данный пользователь не зарегистрирован",
+		"ENGLISH": "This user is not registered"
+	},
+	"USERNAME_DOESNT_MATCH": {
+		"RUSSIAN": "Ваш никнейм не соответствует никнейму в базе",
+		"ENGLISH": "Your username does not match the one in the database"
+	},
+	"USERNAME_NOT_CORRECT": {
+		"RUSSIAN": "Указанный никнейм некорректный",
+		"ENGLISH": "The specified username is incorrect"
+	},
+	"USER_NOT_ONLINE": {
+		"RUSSIAN": "#target не находится на сервер"
+	},
+	"USER_NOT_ONLINE_IN_CURRENT_SERVER": {
+		"RUSSIAN": "#target не находится на вашем сервере"
+	},
+	"EXPRESSION_FORBIDDEN": {
+		"RUSSIAN": "Данное выражение запрещено. Выражение может состоятоль только из английских/русских букв, цифр и некоторых знаков"
+	},
+	"EXPRESSION_MAX_LENGTH_FORBIDDEN": {
+		"RUSSIAN": "Данное выражение превышает разрешённую длину - #length"
+	},
+	"CHAT_LOGO": {
+		"RUSSIAN": "Чат"
+	},
+	"NOT_ACCESS": {
+		"RUSSIAN": "У вас нет прав для использования данного действия!",
+		"ENGLISH": "You do not have the rights to perform this action!"
+	},
+	"COMMAND_USE_ONLY_AUTH": {
+		"RUSSIAN": "Данная команда доступна только на авторизационных серверах",
+		"ENGLISH": "This command is available only on authorization servers"
+	},
+	"COMMAND_USE_ONLY_GAMES": {
+		"RUSSIAN": "Данная команда доступна только на игровых серверах",
+		"ENGLISH": "This command is available only on game servers"
+	},
+	"COMMAND_HELP_MESSAGE": {
+		"RUSSIAN": "Использование: "
+	},
+	"COMMAND_TEST": {
+		"RUSSIAN": "Тестовое сообщение",
+		"ENGLISH": "Test message"
+	},
+	"COMMAND_PUNISH_NO_REASON": {
+		"RUSSIAN": "нет причины"
+	},
+	"COMMAND_STYLE_LOGO": {
+		"RUSSIAN": "Стиль"
+	},
+	"COMMAND_STYLES_HELP": {
+		"RUSSIAN": [
+			"/styles prefix <префикс/reset>",
+			"§4ВНИМАНИЕ!§c Запрещено использовать оскорбительные выражения или выражения, которые будут выдавать вас за персонал. За такие выражения вы можете получить блокировку аккаунта!"
+		]
+	},
+	"COMMAND_STYLES_PREFIX_MESSAGE": {
+		"RUSSIAN": "Вы успешно изменили префикс на #prefix"
+	},
+	"COMMAND_STYLES_PREFIX_TARGET_MESSAGE": {
+		"RUSSIAN": "Вы успешно изменили префикс на #prefix для #target"
+	},
+	"COMMAND_STYLES_PREFIX_MESSAGE_RESET": {
+		"RUSSIAN": "Вы успешно сбросили префикс на изначальный"
+	},
+	"COMMAND_STYLES_PREFIX_TARGET_MESSAGE_RESET": {
+		"RUSSIAN": "Вы успешно сбросили префикс на изначальный для #target"
+	},
+	"COMMAND_FIND_LOGO": {
+		"RUSSIAN": "Поиск"
+	},
+	"COMMAND_FIND_HELP": {
+		"RUSSIAN": "/find <ник/@id>"
+	},
+	"COMMAND_FIND_MESSAGE": {
+		"RUSSIAN": "#target находится на сервре #server"
+	},
+	"COMMAND_LANGUAGE_LOGO": {
+		"RUSSIAN": "Язык"
+	},
+	"COMMAND_LANGUAGE_HELP": {
+		"RUSSIAN": "/language <язык>"
+	},
+	"COMMAND_LANGUAGE_NOT_FOUND_MESSAGE": {
+		"RUSSIAN": "Данный язык не найден в списке доступных"
+	},
+	"COMMAND_LANGUAGE_MESSAGE": {
+		"RUSSIAN": "Вы успешно изменили язык на #language"
+	},
+	"COMMAND_OPME_LOGO": {
+		"RUSSIAN": "Оператор"
+	},
+	"COMMAND_OPME_MESSAGE": {
+		"RUSSIAN": "Вы успешно стали оператором"
+	},
+	"COMMAND_STAFFCHAT_LOGO": {
+		"RUSSIAN": "СтаффЧат"
+	},
+	"COMMAND_STAFFCHAT_HELP": {
+		"RUSSIAN": "/staffchat <сообщение>"
+	},
+	"COMMAND_PRIVATEMESSAGE_LOGO": {
+		"RUSSIAN": "ПЧ"
+	},
+	"COMMAND_PRIVATEMESSAGE_HELP": {
+		"RUSSIAN": "/msg <ник/@id> <сообщение>"
+	},
+	"COMMAND_PRIVATEMESSAGE_TO_MESSAGE": {
+		"RUSSIAN": "§cдля "
+	},
+	"COMMAND_PRIVATEMESSAGE_FROM_MESSAGE": {
+		"RUSSIAN": "§aот "
+	},
+	"COMMAND_VANISH_LOGO": {
+		"RUSSIAN": "Наблюдатель"
+	},
+	"COMMAND_VANISH_ENABLE_MESSAGE": {
+		"RUSSIAN": "Режим наблюдателя §aвключен"
+	},
+	"COMMAND_VANISH_DISABLE_MESSAGE": {
+		"RUSSIAN": "Режим наблюдателя §cвыключен"
+	},
+	"COMMAND_VANISH_PLAYERLIST_MESSAGE": {
+		"RUSSIAN": "Список пользователей в режиме наблюдателя: #players"
+	},
+	"COMMAND_SERVERTELEPORT_LOGO": {
+		"RUSSIAN": "СТП"
+	},
+	"COMMAND_SERVERTELEPORT_HELP": {
+		"RUSSIAN": [
+			"/serverteleport ~<сервер> - телепортация на определённый сервер",
+			"/serverteleport <ник/@id> - телепортация на сервер к игроку"
+		]
+	},
+	"COMMAND_SERVERTELEPORT_MESSAGE": {
+		"RUSSIAN": "Телепортация на сервер #server"
+	},
+	"COMMAND_SPEED_LOGO": {
+		"RUSSIAN": "Ускорение"
+	},
+	"COMMAND_SPEED_HELP": {
+		"RUSSIAN": "/speed <скорость> - устанавливает скоросто полёта/ходьбы"
+	},
+	"COMMAND_SPEED_NOT_CORRECT_VALUE_MESSAGE": {
+		"RUSSIAN": "Вы ввели буквы, а не число"
+	},
+	"COMMAND_SPEED_SET_FLY_MESSAGE": {
+		"RUSSIAN": "Скорость полёта установлена на #value"
+	},
+	"COMMAND_SPEED_SET_WALK_MESSAGE": {
+		"RUSSIAN": "Скорость ходьбы установлена на #value"
+	},
+	"COMMAND_GAMEMODE_LOGO": {
+		"RUSSIAN": "Режим"
+	},
+	"COMMAND_GAMEMODE_HELP": {
+		"RUSSIAN": [
+			"/gamemode <0/1/2/3> - устанавливает игровой режим для себя",
+			"/gamemode <0/1/2/3> <ник/@id> - устанавливает игровой режим для другого игрока"
+		]
+	},
+	"COMMAND_GAMEMODE_MESSAGE": {
+		"RUSSIAN": "Игровой режим #target был изменён на #gamemode"
+	},
+	"COMMAND_FLY_LOGO": {
+		"RUSSIAN": "Полёт"
+	},
+	"COMMAND_FLY_ENABLE_MESSAGE": {
+		"RUSSIAN": "Режим полёта был §aактивирован"
+	},
+	"COMMAND_FLY_DISABLE_MESSAGE": {
+		"RUSSIAN": "Режим полёта был §cдеактивирован"
+	},
+	"COMMAND_NETWORK_LOGO": {
+		"RUSSIAN": "Система"
+	},
+	"COMMAND_NETWORK_HELP": {
+		"RUSSIAN": [
+			"/network reloadUserData <ник/@id> - принудительно перезагружает данные у пользователя",
+			"/network gc - принудительно отчищает память",
+			"/network reloadLocales - принудительно перезагружает локализацию на всех серверах"
+		]
+	},
+	"COMMAND_NETWORK_RELOADUSERDATE_MESSAGE": {
+		"RUSSIAN": "Данные пользователя #target успешно перезагружены"
+	},
+	"COMMAND_NETWORK_GC_MESSAGE": {
+		"RUSSIAN": "Сборщик мусора отработал"
+	},
+	"COMMAND_NETWORK_RELOADLOCALES_MESSAGE": {
+		"RUSSIAN": "Пакет с перезагрузкой всех локалей отправлен на все активные сервера"
+	},
+	"SERVERTYPE_PROXY": {
+		"RUSSIAN": "Прокси",
+		"ENGLISH": "Proxy"
+	},
+	"SERVERTYPE_PROXY_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_SURVIVAL": {
+		"RUSSIAN": "Выживание",
+		"ENGLISH": "Survival"
+	},
+	"SERVERTYPE_SURVIVAL_LORE": {
+		"RUSSIAN": [
+			"§7Выживание в открытом мире",
+			"",
+			" Необычное выживание, с изменёнными",
+			"механиками Minecraft! Здесь ты",
+			"можешь играть как тебя нравится:",
+			"строй, развивайся, общайся или",
+			"соперничай с другими игроками!",
+			"Открой Minecraft по-новому уже сейчас"
+		],
+		"ENGLISH": [
+			"§7Survival in an open world",
+			"",
+			" An unusual survival experience with altered",
+			"Minecraft mechanics! Here you can",
+			"play however you like:",
+			"build, develop, communicate, or",
+			"compete with other players!",
+			"Discover Minecraft in a new way now"
+		]
+	},
+	"SERVERTYPE_TEMPGAME": {
+		"RUSSIAN": "Временные игры",
+		"ENGLISH": "Temporary games"
+	},
+	"SERVERTYPE_TEMPGAME_LORE": {
+		"RUSSIAN": [
+			"§7Разнообразные игры",
+			"",
+			" Испытайте наши разработки в деле!",
+			"Эксклюзивные и интерактивные режимы от",
+			"наших разработчиков, которые точно",
+			"не дадут вам заскучать! Спустя",
+			"некоторое время вы будете решать",
+			"судьбу этих режимов",
+			"",
+			" Действующие режимы:",
+			"1. §cОтсутствует",
+			"2. §cОтсутствует"
+		],
+		"ENGLISH": [
+			"§7Various games",
+			"",
+			" Test our developments in action!",
+			"Exclusive and interactive modes from",
+			"our developers that will surely",
+			"keep you entertained! After some time,",
+			"you will decide the fate of these modes",
+			"",
+			" Active modes:",
+			"1. §cUnavailable",
+			"2. §cUnavailable"
+		]
+	},
+	"SERVERTYPE_LOBBY": {
+		"RUSSIAN": "Лобби",
+		"ENGLISH": "Lobby"
+	},
+	"SERVERTYPE_LOBBY_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_TOURNAMENT": {
+		"RUSSIAN": "Турнирный",
+		"ENGLISH": "Tournament"
+	},
+	"SERVERTYPE_TOURNAMENT_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_BUILD": {
+		"RUSSIAN": "Строительный",
+		"ENGLISH": "Building"
+	},
+	"SERVERTYPE_BUILD_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_TEST": {
+		"RUSSIAN": "Тестовый",
+		"ENGLISH": "Test"
+	},
+	"SERVERTYPE_TEST_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_LIMBO": {
+		"RUSSIAN": "Лимбо",
+		"ENGLISH": "Limbo"
+	},
+	"SERVERTYPE_LIMBO_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_AUTH": {
+		"RUSSIAN": "Авторизационный",
+		"ENGLISH": "Authorization"
+	},
+	"SERVERTYPE_AUTH_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	},
+	"SERVERTYPE_UNKNOWN": {
+		"RUSSIAN": "WTF??",
+		"ENGLISH": "WTF??"
+	},
+	"SERVERTYPE_UNKNOWN_LORE": {
+		"RUSSIAN": ["Увы, но описание ещё не придумано!"],
+		"ENGLISH": ["Unfortunately, the description is not yet available!"]
+	}
+}
