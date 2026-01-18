@@ -187,6 +187,41 @@
 	"COMMAND_GAMEMODE_MESSAGE": {
 		"RUSSIAN": "Игровой режим #target был изменён на #gamemode"
 	},
+	"COMMAND_PUNISH_LOGO": {
+		"RUSSIAN": "Наказание"
+	},
+	"COMMAND_PUNISH_HELP": {
+		"RUSSIAN": "/punish <ник/@id> <правило>"
+	},
+	"COMMAND_PUNISH_RULE_NOT_FOUND": {
+		"RUSSIAN": "Указанные правила не найдены, либо удалены из-за недоступности"
+	},
+	"COMMAND_PUNISH_MESSAGE": {
+		"RUSSIAN": "#staff выдал наказание #target по правилу(ам) #rule"
+	},
+	"COMMAND_UNPUNISH_HELP": {
+		"RUSSIAN": "/unpunish <ник/@id>"
+	},
+	"COMMAND_UNPUNISH_FORBBIDEN": {
+		"RUSSIAN": "Вы не можете разблокировать аккаунт #target, так как он имеет блокировку аккаунта от другого персонала"
+	},
+	"COMMAND_UNPUNISH_NOT_ACTIVE": {
+		"RUSSIAN": "У #target нет активных наказаний"
+	},
+	"COMMAND_UNPUNISH_MESSAGE": {
+		"RUSSIAN": "#staff снял наказание #target по правилу(ам) (#rules)"
+	},
+	"COMMAND_PUNISH_ACTIVE_MESSAGE": {
+		"RUSSIAN": [
+			"Гуманигу грустит, что Вы нарушили правила, но не теряет",
+			"веры — он верит, что Вы ещё найдёте в себе силы исправиться!",
+			"",
+			"Список активных наказаний:"
+		]
+	},
+	"COMMAND_PUNISH_ACTIVE_MESSAGE_ITEM": {
+		"RUSSIAN": "Персонал: #staff | Правило(а): #rules | Окончание: #duration"
+	},
 	"COMMAND_FLY_LOGO": {
 		"RUSSIAN": "Полёт"
 	},
