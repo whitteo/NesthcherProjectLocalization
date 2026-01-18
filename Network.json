@@ -211,6 +211,20 @@
 	"COMMAND_UNPUNISH_MESSAGE": {
 		"RUSSIAN": "#staff снял наказание #target по правилу(ам) (#rules)"
 	},
+	"PUNISH_MENU_TITLE": {
+		"RUSSIAN": "Наказание #target"
+	},
+	"PUNISH_MENU_ITEM_NAME": {
+		"RUSSIAN": "Выдал: #staff"
+	},
+	"PUNISH_MENU_ITEM_LORE": {
+		"RUSSIAN": [
+			"Тип: #type",
+			"Правило(а): #rules",
+			"Выдано: #timestamp",
+			"Окончание: #duration"
+		]
+	},
 	"COMMAND_PUNISH_ACTIVE_MESSAGE": {
 		"RUSSIAN": [
 			"Гуманигу грустит, что Вы нарушили правила, но не теряет",
